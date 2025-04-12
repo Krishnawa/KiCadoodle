@@ -1,12 +1,13 @@
-(footprint "ANT"
-	(version 20240108)
+(footprint "ESP32_ZERO_ANT"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.3 -12.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "ec48fc98-1dfd-4bf4-8324-98050d0c87e0")
 		(effects
 			(font
@@ -19,20 +20,8 @@
 		(at 0.3 -11.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "18a76b8e-91b7-4670-a2e2-569070d942da")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.3 -12.4 0)
-		(unlocked yes)
-		(layer "F.Fab")
 		(hide yes)
-		(uuid "22866a7d-2c3c-4c72-afd3-3092d72980be")
+		(uuid "18a76b8e-91b7-4670-a2e2-569070d942da")
 		(effects
 			(font
 				(size 1 1)
@@ -68,113 +57,75 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.2 -2.8)
-		(end -1.2 2.8)
+		(start -1.15 -2.9)
+		(end -1.149998 2.7)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c9921f9e-4ddb-441c-bda8-3c602ae49b2f")
+		(uuid "416f1a58-0dba-42be-8339-66b50df15dba")
 	)
 	(fp_line
-		(start -1.2 -0.4)
-		(end 1.2 -1.9)
+		(start 1.249998 -2.9)
+		(end 1.25 2.7)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c56730ff-22ff-4c72-a05b-50e9094ad168")
+		(uuid "abcc6dbd-4d0c-45ec-8c7b-4a8a912a6063")
 	)
-	(fp_line
-		(start -1.2 0.05)
-		(end 1.2 -1.45)
+	(fp_rect
+		(start -1.05 -1.8)
+		(end 1.25 -1)
 		(stroke
 			(width 0.15)
-			(type default)
+			(type solid)
 		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "3959ed60-d8a5-4991-bc97-e181e74495c9")
-	)
-	(fp_line
-		(start -1.2 0.45)
-		(end 1.2 -1.05)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b5c21c50-3f79-4dad-aeb7-998078e59b56")
-	)
-	(fp_line
-		(start -1.2 0.8)
-		(end 1.2 -0.7)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "73854082-5597-4ab6-8f59-7cc043f34f36")
-	)
-	(fp_line
-		(start -1.2 1.25)
-		(end 1.2 -0.25)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "ee49b87d-65fa-44b8-a0fb-5e8d44105c40")
-	)
-	(fp_line
-		(start -1.2 1.65)
-		(end 1.2 0.15)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "bbc67451-e675-44ce-9504-77a74a61b46d")
-	)
-	(fp_line
-		(start 1.2 -2.8)
-		(end 1.2 2.8)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c65e081f-090c-4a04-83cb-4c4c0ddaaefa")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0.3 -9.9 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "c73157b5-7310-4788-ac7d-4996f6d03a7c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(uuid "b36b0e68-2964-4234-acce-22651a4f3f1e")
 	)
 	(pad "1" smd roundrect
-		(at 0 -2.8 90)
-		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(at 0.05 -2.85 90)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "c46b7f13-f36c-463c-b1fd-37bde7f35836")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "a18304e0-dd43-4d7b-9c24-32ed74f8a640")
 	)
 	(pad "2" smd roundrect
-		(at 0 2.8 90)
-		(size 2 2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(at 0.05 2.65 90)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "3bb85395-22ad-4b77-8e23-c70504a1f992")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "dc14db4d-1894-435f-92d0-1786c67d99ae")
 	)
+	(embedded_fonts no)
 	(model "/home/krishnawa/git/BEEWATCH/3D/ANTENNA/ANT-BodyPad.step"
 		(offset
 			(xyz 0 0 0)
