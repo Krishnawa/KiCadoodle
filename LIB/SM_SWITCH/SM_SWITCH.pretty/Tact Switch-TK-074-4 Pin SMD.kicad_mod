@@ -1,7 +1,7 @@
 (footprint "Tact Switch-TK-074-4 Pin SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.2 -4.6 0)
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "1d5544af-3c47-49fd-b5f1-8b1d0e791681")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a76b7492-98f3-4e34-abef-2d1a9bb111a9")
 		(effects
 			(font
 				(size 1 1)
@@ -115,7 +102,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "ed1dcdad-8f62-4b18-812d-22e711c29d39")
 	)
@@ -126,7 +113,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f73819b5-51c0-4db3-bb8e-b78fb6ff81d7")
 	)
@@ -137,7 +124,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "9d35ef65-2183-48a4-9610-0dd2677cfcfa")
 	)
@@ -156,28 +143,29 @@
 	(pad "1" smd rect
 		(at -1.7 -2.9)
 		(size 1.4 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "311137fd-bd38-45f0-9667-0a3a42744963")
 	)
 	(pad "2" smd rect
 		(at -1.7 2.9)
 		(size 1.4 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f868a8c8-aec0-4801-bd74-866560057821")
 	)
 	(pad "3" smd rect
 		(at 1.7 -2.9)
 		(size 1.4 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9c485e76-63e9-412a-90b8-0e4e8850ccaa")
 	)
 	(pad "4" smd rect
 		(at 1.7 2.9)
 		(size 1.4 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dba1dc7f-062e-4c81-b5f7-b245baa8617e")
 	)
-	(model "/home/krishnawa/git/BEEWATCH/3D/SWITCH/Tact Switch-TK-074-4 Pin SMD.step"
+	(embedded_fonts no)
+	(model "/home/krishnawa/git/KiCadoodle/LIB/SM_SWITCH/3D/TK-074/Tact Switch-TK-074-4 Pin SMD.step"
 		(offset
 			(xyz 0 0 0)
 		)
