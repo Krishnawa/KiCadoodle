@@ -126,15 +126,15 @@
 		(uuid "dc14db4d-1894-435f-92d0-1786c67d99ae")
 	)
 	(embedded_fonts no)
-	(model "/home/krishnawa/git/BEEWATCH/3D/ANTENNA/ANT-BodyPad.step"
+	(model "/home/krishnawa/git/KiCadoodle/LIB/ANTENNA/3D/ESP32_ZERO_ANT/ESP32_ZERO_ANT.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0.1 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 1 0.8)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz -0 -0 90)
 		)
 	)
 )

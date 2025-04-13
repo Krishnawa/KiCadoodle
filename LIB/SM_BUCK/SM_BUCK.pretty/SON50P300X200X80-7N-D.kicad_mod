@@ -1,12 +1,12 @@
 (footprint "SON50P300X200X80-7N-D"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DCB 6-Lead Plastic DFN")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0.3 -2.2 0)
 		(layer "F.SilkS")
 		(uuid "ffe8bae0-26ac-47be-8441-b89f038f50e5")
 		(effects
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "feeef7fa-3a19-4c27-9717-81c0c1c1d18b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +60,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "dc64629f-fdbb-4fab-869e-6e855657d1f4")
 	)
@@ -180,46 +168,47 @@
 	(pad "1" smd rect
 		(at -1.5 -0.5 90)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "27cba14b-7865-4cd7-9f42-2f350241c916")
 	)
 	(pad "2" smd rect
 		(at -1.5 0 90)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a0906cb5-8c72-453d-b721-32d9768ab96d")
 	)
 	(pad "3" smd rect
 		(at -1.5 0.5 90)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "07e01e9e-d18b-451d-bcc2-abe66669b601")
 	)
 	(pad "4" smd rect
 		(at 1.5 0.5 90)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fcf14fa9-b632-43e6-9b99-6e45c273835f")
 	)
 	(pad "5" smd rect
 		(at 1.5 0 90)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "a61ed516-8ce6-4b60-b36e-a6771cc01a2c")
 	)
 	(pad "6" smd rect
 		(at 1.5 -0.5 90)
 		(size 0.3 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "33686715-46b0-4b4a-834f-91ad6ad8fe2d")
 	)
 	(pad "7" smd rect
 		(at 0 0 90)
 		(size 1.45 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "8e66d301-02e7-4eec-88eb-65bb5d549b21")
 	)
-	(model "/home/krishnawa/git/BEEWATCH/3D/LTC3549EDCB/LTC3549EDCB#TRMPBF.stp"
+	(embedded_fonts no)
+	(model "/home/krishnawa/git/KiCadoodle/LIB/SM_BUCK/3D/LTC3549EDCB/LTC3549EDCB#TRMPBF.stp"
 		(offset
 			(xyz 0 0 0)
 		)
