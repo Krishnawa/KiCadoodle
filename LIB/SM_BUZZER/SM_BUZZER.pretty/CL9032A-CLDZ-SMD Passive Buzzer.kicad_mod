@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.2 -5 0)
+		(at -2.9 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "82e9ff16-815c-49a3-9d16-f2c505460a5e")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.999999 2.645751)
-		(end -2.999999 5.245752)
+		(start -2.5 3.8)
+		(end -2.5 5.245752)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -65,8 +65,8 @@
 		(uuid "cf392863-dce9-4504-b7b6-eb31d5a6ad0d")
 	)
 	(fp_line
-		(start -2.999999 5.245752)
-		(end 3.000001 5.245752)
+		(start -2.5 5.245752)
+		(end 2.5 5.245752)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -75,8 +75,8 @@
 		(uuid "9fa4d5ae-44c1-4d86-a9e8-7636da32dd5c")
 	)
 	(fp_line
-		(start 3.000001 5.245752)
-		(end 3.000001 2.64575)
+		(start 2.5 5.245752)
+		(end 2.5 3.8)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -85,9 +85,9 @@
 		(uuid "524d0653-32c8-42b1-9c8c-4398a4b15e99")
 	)
 	(fp_arc
-		(start -3.9 -0.9)
-		(mid -0.011523 -4.002483)
-		(end 3.894753 -0.922441)
+		(start -4.432153 -1.0228)
+		(mid 0.011119 -4.548624)
+		(end 4.4371 -1.00112)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -96,9 +96,9 @@
 		(uuid "8a8e1c0a-7b2e-4fb0-a37c-a353f9e84fd0")
 	)
 	(fp_arc
-		(start -3.001874 2.647405)
-		(mid -3.559821 1.829666)
-		(end -3.9 0.9)
+		(start -2.5 3.800012)
+		(mid -3.733888 2.597727)
+		(end -4.432153 1.022801)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -107,9 +107,9 @@
 		(uuid "3141f1dd-608a-4878-8fbd-7d053181304e")
 	)
 	(fp_arc
-		(start 3.9 0.9)
-		(mid 3.559821 1.829665)
-		(end 3.001875 2.647403)
+		(start 4.432141 1.022803)
+		(mid 3.733879 2.59772)
+		(end 2.5 3.8)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -141,14 +141,14 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 4.5 0)
-		(size 1.57 1.6)
+		(at 3.6925 0)
+		(size 3.185 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "32b51a8b-4adb-4e9a-b458-7b4ac70840e1")
 	)
 	(pad "2" smd rect
-		(at -4.5 0)
-		(size 1.57 1.6)
+		(at -3.6925 0)
+		(size 3.185 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "202742be-558b-4deb-b2da-1797e2f82bb8")
 	)
