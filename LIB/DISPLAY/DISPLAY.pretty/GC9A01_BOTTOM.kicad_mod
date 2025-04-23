@@ -211,28 +211,6 @@
 		(layer "F.SilkS")
 		(uuid "7bccbea9-f414-4127-b123-2cdcbad83799")
 	)
-	(fp_circle
-		(center -4.748847 -15)
-		(end -4.248847 -14.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "524de91c-7a63-4ad8-a272-91e6bd1bfa8f")
-	)
-	(fp_circle
-		(center 5.251153 -15)
-		(end 5.751153 -15)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "0906fbf1-053b-4e64-97b7-d9199d82fbe4")
-	)
 	(fp_line
 		(start -6.748847 -22.5865)
 		(end -6.748847 -10.1365)
@@ -368,6 +346,20 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.748847 -15 90)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5897e4bd-55e4-42b3-bf75-5ad8772e3bb5")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.251153 -15 90)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "09c3f292-072f-4fff-af98-2961ff203c1f")
 	)
 	(pad "1" smd rect
 		(at -3.298847 -11.7)
